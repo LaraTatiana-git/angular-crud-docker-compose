@@ -1,0 +1,10 @@
+<div class="row gap-3">
+  @for( product of arrProducts; track product.id ){
+  <article class="col-12">
+    <h3>{{product.id}} - {{product.title}}</h3>
+    <p>Precio: {{product.price}}</p>
+    <p>IVA: {{product.iva}}</p>
+    <p>Strock: {{product.stock === 1 ? 'Hay stock' : 'No hay stock'}}</p>
+  </article>
+  }
+</div>
