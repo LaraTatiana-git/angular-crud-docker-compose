@@ -48,6 +48,14 @@ $ docker compose up
 
 >NOTA: El comando anterior debe ejecutarse desde la carpeta raíz del proyecto.
 
+## Paso 4
+
+Acceder a la aplicación desde el navegador usando la siguiente dirección:
+
+http://localhost:4200/
+
+Este enlace mostrará una lista de productos de prueba.
+
 ## Detener los contenedores
 
 Si hemos levantado los contenedores usando:
